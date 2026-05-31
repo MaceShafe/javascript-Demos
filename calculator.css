@@ -1,0 +1,65 @@
+html {
+  background-image: radial-gradient(circle at center,  rgb(105, 38, 240) 0%,  rgb(100, 165, 255) 25%,  rgb(222, 214, 255) 50%, rgb(255, 255, 255) 75%);
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  /* (to bottom, rgb(255, 255, 255), rgb(230, 206, 255)); */
+}
+
+body {margin: 0px;}
+.header {
+  /* background-image: linear-gradient(to bottom, rgb(77, 168, 210), rgb(36, 148, 240)); */
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom:50px;
+    /* box-shadow: 5px 5px rgba(75, 4, 61, 0.286); */
+    color:rgb(111, 161, 247);
+    padding:5px;
+}
+
+.center {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: radial-gradient(circle at center, rgb(53, 10, 148)50%,  rgb(7, 7, 73)100%);
+    box-shadow: 55px 15px 100px rgba(8, 33, 59, 0.471);
+    padding:10px;
+    border-radius: 5%;
+}
+
+.calcDisplay {
+    display:flex;
+    align-items: center;
+    justify-content: right;
+    padding:5px;
+    background-color: rgb(203, 231, 255);
+    margin:10px;
+    min-height: 60px;
+    font-size:40px;
+    text-align: right;
+
+}
+
+.calcContainer {
+    padding:20px;
+  background-image: linear-gradient(to bottom, rgb(66, 17, 171),  rgb(14, 14, 123));
+    display:grid;
+    grid-template-columns:auto auto auto auto;
+    grid-column: 1 / span 4 ;
+    box-shadow: inset rgba(39, 0, 66, 0.873) 2px 3px 10px;
+    border-radius: 5%;
+
+}
+
+.calcContainer .calcButton{
+    border: 1px solid rgb(68, 77, 143);
+    /* background-color: rgb(203, 231, 255); */
+    background-image: radial-gradient(farthest-corner at 1px -40px, rgb(106, 53, 231)20%,rgb(66, 17, 171)80%,  rgb(14, 14, 123)100%);
+color:white;
+    padding:10px;
+    margin:3px;
+    font-size:40px;
+    min-width: 60px;
+    text-align: center;
+    border-radius:24%;
+
+}
