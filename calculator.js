@@ -1,6 +1,20 @@
 let prevNumber = null;
 let currNumberString = "";
 let lastAction = null;
+
+const btn = document.querySelector('.calcButton-border-wrap');
+
+btn.addEventListener('mousemove', e =>{
+const rect = e.target.getBoundingClientRect();
+const x = e.clientX - rect.left;
+const y = e.clientY - rect.top;
+
+btn.computedStyleMap.setProperty('--x', x + px);
+
+btn.computedStyleMap.setProperty('--x', x + px);
+});
+
+
 // const textDisplay = document.getElementById("calcNumber");
 
 function insertNumber(number) {
